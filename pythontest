@@ -1,0 +1,11 @@
+nam_hu = input("Input your name:\n")
+nam_wi = input("your siter name:\n")
+year_w = int(input("enter your year of birth:\n"))
+while year_w <= 2009:
+  print ("My name is {}, and my sister is {}".format (nam_hu, nam_wi) )
+  year_w +=1
+  print("{} is prior our birth".format (year_w))
+  if year_w == 2009:
+    print("This is our birth year")
+else:
+  print ("This is after our birth ")
